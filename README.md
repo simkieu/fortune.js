@@ -4,7 +4,7 @@ Fortune.js
 ## Introduction
 
 This repository contains a tiny fortune quotes database (172) and 
-a library that read the quotes and returns a random one.
+a library that reads the quotes and returns a random one.
 
 ## How to use
 
