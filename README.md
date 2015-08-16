@@ -13,14 +13,14 @@ a library that read the quotes and returns a random one.
 ```
 ```javascript
 fortune.getQuote(function(quote) {
-    console.log(quote);
+    console.log(quote); // i.e. Happy news is on its way to you.
 });
 ```
 
 * Optionally, you can pass a second parameter which represents another fortunes database (single quote per line):
 ```javascript
 fortune.getQuote(function(quote) {
-    console.log(quote); // i.e. Happy news is on its way to you.
+    console.log(quote);
 }, "myFortunes.txt");
 ```
 
