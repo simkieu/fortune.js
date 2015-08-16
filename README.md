@@ -20,7 +20,7 @@ fortune.getQuote(function(quote) {
 * Optionally, you can pass a second parameter which represents another fortunes database (single quote per line):
 ```javascript
 fortune.getQuote(function(quote) {
-    console.log(quote);
+    console.log(quote); // i.e. My nice quote.
 }, "myFortunes.txt");
 ```
 
