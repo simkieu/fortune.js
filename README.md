@@ -4,33 +4,30 @@ Fortune.js
 ## Introduction
 
 This repository contains a tiny fortune quotes database (172) and 
-a library that read the quotes and picks a random one.
+a library that read the quotes and returns a random one.
 
 ## How to use
 
 ```html
 <script type="text/javascript" src="fortune.js"></script>
-
-<script>
-	fortune.getQuote(function(quote) {
-	    console.log(quote);
-	});
-</script>
+```
+```javascript
+fortune.getQuote(function(quote) {
+    console.log(quote);
+});
 ```
 
 * Optionally, you can pass another fortunes file (single quote per line) as a second parameter:
-```html
-<script>
-	fortune.getQuote(function(quote) {
-	    console.log(quote);
-	}, "myFortunes.txt");
-</script>
+```javascript
+fortune.getQuote(function(quote) {
+    console.log(quote);
+}, "myFortunes.txt");
 ```
 
 ## Files
 
 * *quotes.txt* contains the fortunes (i.e. the quotes)
-* *fortune.js* library
+* *fortune.js* library which reads the quotes and picks a random one
 * *demo.html* demo file which shows a quote every reload
 
 ---
