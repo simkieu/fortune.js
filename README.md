@@ -28,7 +28,7 @@ fortune.getQuote(function(quote) {
 
 * *quotes.txt* contains the fortunes (i.e. the quotes)
 * *fortune.js* library which reads the quotes and picks a random one
-* *demo.html* demo file which shows a quote every page refresh
+* *demo.html* demo file which shows a quote every page reload
 
 ---
 
