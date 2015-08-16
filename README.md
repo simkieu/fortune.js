@@ -17,7 +17,7 @@ fortune.getQuote(function(quote) {
 });
 ```
 
-* Optionally, you can pass a second parameter which represents another fortunes file database (keep single quote per line):
+* Optionally, you can pass a second parameter which represents another fortunes database (keep single quote per line):
 ```javascript
 fortune.getQuote(function(quote) {
     console.log(quote);
